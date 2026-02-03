@@ -32,6 +32,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     headless: false,
     baseURL: 'https://restful-booker.herokuapp.com',
+    ignoreHTTPSErrors: true,
   },
 
   /* Configure projects for major browsers */
